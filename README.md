@@ -11,17 +11,17 @@ The historical stock price data is collected from the Yahoo Finance platform usi
 ### Data Preprocessing
 The raw data is preprocessed to calculate the 100-day and 200-day Simple Moving Averages (SMA). These moving averages provide a smoothed representation of the stock prices and help identify trends and potential buy/sell signals.
 
-## Time Zone Consideration
+## 2. Time Zone Consideration
 The analysis is conducted in the Indian Standard Time (IST) timezone since the stock prices are specific to companies listed on the National Stock Exchange of India.
 
-## Exploratory Data Analysis
+## 3. Exploratory Data Analysis
 ### Stock Data Analysis
 Each stock's historical data is analyzed, including opening, high, low, and closing prices, as well as the calculated 100-day and 200-day SMAs. These analyses provide insights into the long term performance and trends of the stocks.
 
 ### Trading Signals
 Based on the relationship between the closing price and the 100-day and 200-day SMAs, potential buy or sell signals are identified for each stock. These signals help investors make informed decisions about trading actions.
 
-## Conclusion
+## 4. Conclusion
 ### SMA explained
 The choice of moving averages to use for analyzing historical data and making buy/sell decisions depends on various factors, such as the investment strategy, risk tolerance, and time horizon of the investor.
 The 100 and 200-day simple moving averages are often used in long-term investment strategies. These moving averages can provide a broader perspective on the stock's long-term trends and potential support or resistance levels. Therefore, the choice of moving averages to use for your analysis depends on your investment strategy and time horizon. If you are a short-term trader, the 20 and 50-day moving averages may be more suitable for your analysis. However, if you are a long-term investor, you may consider using the 100 and 200-day moving averages.
